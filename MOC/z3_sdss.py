@@ -16,3 +16,5 @@ df = pd.read_csv('../data/sdss_datasets.csv')
 ti = 'Sloan Digital Sky Surveys (SDSS), Release 16 (DR16) (Ahumada+, 2020) (sdss16)'
 
 a = df[df['obs_title']==ti].iloc[0]
+
+ID = 'CDS/V/154/sdss16'
